@@ -24,7 +24,7 @@ app.get('/mithuntechnologies', function(request, response) {
     response.set("Content-Type","text/html");
     response.write("<h2><center><u>Sameple Node JS  Application </u></center></h2>");
 	
-    response.write("<h2><center>Welcome to  Mithun Technologies. Please Contact +91-9980923226  +91-9900012028 for more information or send an email to devopstrainingblr@gmail.com <center></h2>" );
+    response.write("<h2><center>Welcome to  nodeapp on docker. <center></h2>" );
     response.end();
     
   })
@@ -54,10 +54,10 @@ app.get("/html", function(req,res){
         //res.type('application/json');
         //res.json({'name': 'Mithun Reddy L'});
         res.send({
-		'name': 'Mithun Technologies',
+		'name': 'kishorech48',
 		'technology': 'DevOps',
-		'contact' : '9980923226',
-		'email': 'devopstrainingblr@gmail.com'
+		'contact' : '6304955141',
+		'email': 'kishore@gmail.com'
 	            });
         
         });
